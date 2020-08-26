@@ -1,6 +1,7 @@
 
 ## Commonly Used Git Commands
-Before we begin, let us understand **what is Git**. Gith is a Version Control System (VCS). A VCS is ideally a process management system that manages/maintains changes made to a file or set of files over time.
+Before we begin, let us understand **what Git is**. 
+Git is a Version Control System (VCS). A VCS is ideally a process management system that manages/maintains changes made to a file or set of files over time.
 #
 
 **Downloading & Installing Git**
