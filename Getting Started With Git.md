@@ -22,6 +22,7 @@ $ git version
 ```
 
 **Initializing Your Local Git Repository**
+
 Before you can start using git, you need to initialize the directory that will become your local repository. This could be done by running the following command: 
 ```
 $ git init
@@ -42,6 +43,7 @@ $ git config --list
 **Note:** If there is an existing remote repository that you want to use, you will need to download/clone that repository. The following section looks at cloning an existing repository. By doing this, you do not need to run the ***git init*** as this is done through this command.
 
 **Downloading/Cloning An Exisiting Repository Into a New Directory**
+
 If there is a remote repository that you want to work on, you can use the following command to get that repository on to your local machine: 
 ```
 $ git clone <url>
@@ -56,6 +58,7 @@ $ git add remote <url>
 It should be noted that this command can be used right before the push command instead of here.
 
 **Working With Branches**
+
 What is a branch?
 In short, a branch is a pointer to a specific commit or set of commits. Ideally, as you will see shortly, you commit your changes to a branch which may be your master branch (default branch) or a newly created branch.
 
@@ -131,6 +134,7 @@ $ git pull
 ```
 
 **Commonly Asked Questions**
+
 * **What is the difference between 'git fetch' and 'git clone'?**
 When you run the clone command, you are ideally copying the entire repository to your local repository. Git fetch on the hand will only fetch the meta-data of all the changes made in the remote repository. An answer like this often leads to the following question. 
 
